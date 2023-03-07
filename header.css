@@ -1,0 +1,29 @@
+.header {
+    background-image: url(img/background/header.png);
+    height: 850px;
+    background-repeat: no-repeat;
+}
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 31px 25px 0;
+    align-items: center;
+}
+
+.header__container{
+    margin: 0 41px;
+}
+.header__site-title {
+    padding-top: 117px;
+    color: #FFFFFF;
+    font-size: var(--title-font-size);
+    font-weight: 400;
+}
+
+.header__subtitle {
+    font-size: var(--subtitle-font-size);
+    color: #FFFFFF;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+    padding: 27px 33px 69px;
+}
