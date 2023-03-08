@@ -10,7 +10,7 @@
     font-family: 'Graphik';
     src: url(fonts/GraphikBold.otf) format('opentype');
     font-weight: 700;
-    font-style: normal;
+    font-style: normal; 
 }
 
 * {
@@ -20,6 +20,7 @@
 }
 
 :root {
+    
     --section-text-color: #374754;
     --section-title-color: #252B42;
     --title-font-size: 48px;
@@ -28,7 +29,7 @@
     text-align: center;
     width: 417px;
 }
-
+    
 a {
     color: #FFFFFF;
     text-decoration: none;
@@ -54,7 +55,7 @@ ul {
     display: inline-block;
     width: 236px;
     padding: 16px 0px;
-    font-weight: 700;
+    font-weight: 400px;
     font-size: 20px;
     background-color: #2091F9;
     border-radius: 35px;

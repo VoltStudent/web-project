@@ -1,0 +1,21 @@
+.organize-block__header {
+    margin: 90px 42px 69px;
+}
+
+.organize-block__title {
+    font-size: var(--title-font-size);
+    color: var(--section-title-color);
+    font-weight: 400;
+    padding-bottom: 27px;
+}
+
+.organize-block__subtitle {
+    font-size: var(--subtitle-font-size);
+    color: var( --section-text-color);
+    letter-spacing: 0.2px;
+    line-height: 40px;
+}
+
+.organize-block__picture {
+    margin: 74px 0 86px;
+}

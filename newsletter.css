@@ -1,0 +1,51 @@
+.newsletter__header {
+    margin: 81px 75px 95px;
+}
+
+.newsletter__content {
+    font-size: 20px;
+    color: var(--section-title-color);
+}
+
+.newsletter__title {
+    font-size: var(--title-font-size);
+    color: var(--section-title-color);
+    font-weight: 400;
+    padding: 17px 0 27px;
+}
+
+.newsletter__subtitle {
+    font-size: var(--subtitle-font-size);
+    color: var(--section-text-color);
+    letter-spacing: 0.2px;
+    line-height: 40px;
+}
+
+.newsletter__picture {
+    margin-bottom: 95px;
+}
+
+.subscribe-title {
+    font-size: 20px;
+    color: var(--section-title-color);
+    padding-bottom: 10px;
+}
+
+.subscribe-text {
+    font-size: 18px;
+    color: var(--section-text-color);
+}
+
+.newsletter__form {
+    margin: 34px 0 114px;
+}
+
+.form__email {
+    background-color: #F4F4F4;
+    border-radius: 39px;
+    padding: 19px 35px;
+    width: 84%;
+    margin: 12px auto 0px;
+    border-color: #F4F4F4 ;
+    border: 1px solid #E8E8E8
+}
