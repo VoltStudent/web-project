@@ -1,0 +1,52 @@
+.pricing {
+    background-color: #252B42;
+    color: #fff
+}
+
+.pricing__header {
+   padding: 121px 75px 0;
+}
+
+.pricing__title {
+    font-size: var(--title-font-size);
+    font-weight: 400;
+    padding-bottom: 27px;
+}
+
+.pricing__subtitle {
+    font-size: var(--subtitle-font-size);
+    letter-spacing: 0.2px;
+    line-height: 40px;
+}
+
+.pricing__package {
+    padding: 43px 40px;
+    width: 335px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    background-color: #fff;
+    color: var(--section-text-color);
+    border: 1px solid #DEDEDE;
+    border-radius: 10px;
+}
+
+.pricing__packages {
+    padding: 108px 41px 118px;
+}
+
+.pricing__package-blue {
+    padding: 43px 40px;
+    width: 335px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    background-color: #2091F9;
+    color: #fff;
+    border: 1px solid #DEDEDE;
+    border-radius: 10px;
+}
+
+
+
+

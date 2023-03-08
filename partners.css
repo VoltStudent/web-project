@@ -1,0 +1,40 @@
+.partners__header {
+    margin: 60px 75px 108px;
+}
+
+.partners__title {
+    font-size: var(--title-font-size);
+    color: var(--section-title-color);
+    font-weight: 400;
+    padding-bottom: 27px;
+}
+
+.partners__subtitle {
+    font-size: var(--subtitle-font-size);
+    color: var(--section-text-color);
+    letter-spacing: 0.2px;
+    line-height: 40px;
+}
+
+.partners__logos {
+
+    margin-bottom: 100px;
+}
+
+.partners__name :last-child {
+    margin: 0;
+}
+
+.partners__name {
+    padding: 25px 40px;
+    border: 1px solid #D8D8D8;
+    margin: 0 70px 30px ;
+}
+
+.partners__logo-title {
+    padding-bottom: 15px;
+}
+
+.partners a {
+    margin-bottom: 50px;
+}
