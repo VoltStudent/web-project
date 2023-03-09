@@ -2,3 +2,34 @@ footer {
     background-color: #252B42;
     color: #fff
 }
+
+.name__lists {
+    padding: 34px 125px 79px;
+}
+.name-list__title{
+    font-weight: 700;
+    font-size: 20px;
+    padding: 83px 0 17px;
+}
+
+.name__list-names {
+    font-size: 15px;
+    padding: 8px 0;
+    line-height: 28px;
+}
+
+.contact-data__block {
+    display: flex;
+    align-items: center;
+    padding: 22px 0 22px 74px;
+} 
+
+.adress {
+    padding-left: 16px;
+}
+
+.social_media {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 128px 131px;
+}

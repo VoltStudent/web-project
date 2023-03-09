@@ -1,3 +1,6 @@
+.pricing {
+    background-color: #252B42;
+}
 
 .pricing__header {
     padding: 121px 75px 108px;
@@ -7,12 +10,14 @@
     font-size: var(--title-font-size);
     font-weight: 400;
     padding-bottom: 27px;
+    color: #fff;
 }
 
 .pricing__subtitle {
     font-size: var(--subtitle-font-size);
     letter-spacing: 0.2px;
     line-height: 40px;
+    color: #fff;
 }
 
 .pricing__package {
@@ -86,6 +91,7 @@
     font-size: 74px;
     color: #252B42;
     padding-right: 10px;
+    line-height: 84px;
 }
 
 .currency {
@@ -110,6 +116,7 @@
 .pricing__list {
     font-size: 15px;
     padding-bottom: 20px;
+    line-height: 28px;
 }
 
 .pricing .button {
