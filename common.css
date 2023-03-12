@@ -27,7 +27,16 @@
     --subtitle-font-size: 28px;
     font-family: "Graphik";
     text-align: center;
-    width: 417px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    display: block;
 }
     
 a {
@@ -41,8 +50,9 @@ ul {
 
 .blue_btn {
     display: block;
-    margin: 12px auto 0px;
-    padding: 16px 128px;
+    max-width: 353px;
+    margin: auto;
+    padding: 16px 70px;
     font-weight: 700;
     font-size: 20px;
     background-color: #2091F9;
@@ -53,8 +63,8 @@ ul {
 
 .button {
     display: inline-block;
-    width: 236px;
-    padding: 16px 0px;
+    max-width: 236px;
+    padding: 16px 62px;
     font-weight: 400;
     font-size: 20px;
     background-color: #2091F9;

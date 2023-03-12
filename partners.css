@@ -1,5 +1,10 @@
+.partners {
+    padding: 20px;
+}
+
 .partners__header {
-    margin: 60px 75px 108px;
+    margin: 40px auto 108px;
+    max-width: 530px;
 }
 
 .partners__title {
@@ -17,8 +22,9 @@
 }
 
 .partners__logos {
-
-    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 100px;
 }
 
 .partners__name :last-child {
@@ -26,15 +32,26 @@
 }
 
 .partners__name {
-    padding: 25px 40px;
     border: 1px solid #D8D8D8;
-    margin: 0 70px 30px ;
+    max-width: 270px;
+    min-height: 150px;
+    padding: 25px 40px 0;
+    margin: 0 auto 30px;
 }
 
 .partners__logo-title {
     padding-bottom: 15px;
 }
 
-.partners a {
+.partners .button {
     margin-bottom: 50px;
+}
+
+@media (min-width: 800px) {
+    .partners__logos {
+        flex-direction: row;
+        justify-content: center;
+        max-width: 1080px;
+        flex-wrap: wrap;
+    }
 }

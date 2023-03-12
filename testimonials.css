@@ -1,5 +1,9 @@
+.testimonials {
+    padding: 20px;
+}
+
 .testimonials-content {
-    margin: 121px 67px 53px 67px;
+    margin: 100px auto 67px;
 }
 
 .testimonials__title {
@@ -9,7 +13,9 @@
 }
 
 .testimonials__logo {
+    margin: auto;
     padding: 105px 0px 53px;
+    max-width: 130px;
 }
 
 .testimonials__text {
@@ -19,7 +25,8 @@
 }
 
 .testimonials__designer-info {
-    margin: 0 143px 95px;
+    margin: 0 auto 95px;
+    max-width: 130px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -35,6 +42,23 @@
     padding-bottom: 2px;
 }
 
-.testimonials a {
+.testimonials .button {
+    max-width: 275px;
     margin-bottom: 100px;
+    padding: 16px 47px;
+}
+
+@media (min-width: 800px) {
+    .testimonials__logo {
+        max-width: 150px;
+    }
+
+    .testimonials__text {
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 40px;
+        letter-spacing: 0.2px;
+        max-width: 950px;
+        margin: auto;
+    }
 }

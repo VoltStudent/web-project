@@ -1,6 +1,9 @@
+.features {
+    padding: 110px 20px 0;
+}
+
 .features__title-header {
-    margin: 91px 76px 67px;
-    
+    margin: 0 auto 67px;
 }
 
 .features__title {
@@ -12,20 +15,20 @@
 
 .features__subtitle {
     font-size: var(--subtitle-font-size);
-    color: var( --section-text-color);
+    color: var(--section-text-color);
     letter-spacing: 0.2px;
     line-height: 40px;
 }
 
 .feature__video {
- margin-bottom: 82px;
+    max-width: 1170px;
+    margin: 0 auto 82px;
 }
 
 .feature__opportunity {
     display: flex;
     flex-direction: column;
-    margin: 0 94px;
-    
+    align-items: center;
 }
 
 .feature__opportunity :last-child {
@@ -34,6 +37,7 @@
 
 .feature__opportunity-block {
     margin-bottom: 82px;
+    max-width: 230px;
 }
 
 .feature__block-title {
@@ -47,4 +51,18 @@
 .feature__block-text {
     font-size: 18px;
     line-height: 25px;
+}
+
+.feature__opportunity-icon {
+    max-width: 45px;
+    margin: auto;
+}
+
+@media (min-width: 800px) {
+    .feature__opportunity {
+        max-width: 870px;
+        flex-direction: row;
+        margin: auto;
+        justify-content: space-between;
+    }
 }

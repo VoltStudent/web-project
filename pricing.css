@@ -1,9 +1,10 @@
 .pricing {
+    padding: 20px 20px 68px;
     background-color: #252B42;
 }
 
 .pricing__header {
-    padding: 121px 75px 108px;
+    padding: 100px 0 108px;
 }
 
 .pricing__title {
@@ -23,7 +24,7 @@
 .pricing__package {
     margin: 0 auto 50px;
     padding: 43px 0 40px;
-    width: 335px;
+    max-width: 335px;
     font-weight: 400;
     font-size: 16px;
     line-height: 23px;
@@ -36,7 +37,7 @@
 .pricing__package-standart {
     margin: 0 auto 50px;
     padding: 43px 0 40px;
-    width: 335px;
+    max-width: 335px;
     font-weight: 400;
     font-size: 16px;
     color: #fff;
@@ -58,11 +59,11 @@
 }
 
 .pricing__packages {
-    padding: 0 41px 118px;
+    padding: 0 auto 118px;
 }
 
-.pricing__packages :last-child {
-    margin-bottom: 0px;
+.pricing__packages:last-child {
+    margin: 0 auto;
 }
 
 
@@ -123,3 +124,14 @@
     margin-top: 20px;
 }
 
+@media (min-width: 800px) {
+    .pricing__packages {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media (min-width: 1048px){
+    .pricing__package {
+        margin: 43px auto 86px ;
+    }
+}
