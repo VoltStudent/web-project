@@ -59,7 +59,7 @@
 }
 
 .pricing__packages {
-    padding: 0 auto 118px;
+    padding-bottom: 118px;
 }
 
 .pricing__packages:last-child {
