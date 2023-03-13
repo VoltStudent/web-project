@@ -2,7 +2,7 @@
     padding: 20px;
 }
 
-.testimonials-content {
+.testimonials__header {
     margin: 100px auto 67px;
 }
 
@@ -20,7 +20,7 @@
 
 .testimonials__text {
     font-weight: 700;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 17px;
 }
 
@@ -30,14 +30,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: var(--section-text-color);
     font-weight: 400;
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 
 .designer-info__title {
     font-weight: 700;
-    font-size: 10px;
+    font-size: 0.625px;
     color: var(--section-title-color);
     padding-bottom: 2px;
 }
@@ -55,7 +54,7 @@
 
     .testimonials__text {
         font-weight: 400;
-        font-size: 28px;
+        font-size: 1.75rem;
         line-height: 40px;
         letter-spacing: 0.2px;
         max-width: 950px;

@@ -15,7 +15,6 @@
 
 .features__subtitle {
     font-size: var(--subtitle-font-size);
-    color: var(--section-text-color);
     letter-spacing: 0.2px;
     line-height: 40px;
 }
@@ -35,25 +34,25 @@
     padding: 0;
 }
 
-.feature__opportunity-block {
+.opportunity__block {
     margin-bottom: 82px;
     max-width: 230px;
 }
 
-.feature__block-title {
+.opportunity__block-title {
     padding: 27px 0 20px;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 28px;
     color: var(--section-title-color);
 }
 
-.feature__block-text {
-    font-size: 18px;
+.opportunity__block-text {
+    font-size: 1.125rem;
     line-height: 25px;
 }
 
-.feature__opportunity-icon {
+.opportunity__icon {
     max-width: 45px;
     margin: auto;
 }

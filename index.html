@@ -16,11 +16,11 @@
         <div class="header__container container">
             <nav class="header__nav nav">
                 <div class="nav__menu">
-                    <a href="#" class="nav-item">Home</a>
-                    <a href="#" class="nav-item">Product</a>
-                    <a href="#" class="nav-item">Pricing</a>
-                    <a href="#" class="nav-item">About</a>
-                    <a href="#" class="nav-item">Contact</a>
+                    <a href="#" class="nav__menu-item">Home</a>
+                    <a href="#" class="nav__menu-item">Product</a>
+                    <a href="#" class="nav__menu-item">Pricing</a>
+                    <a href="#" class="nav__menu-item">About</a>
+                    <a href="#" class="nav__menu-item">Contact</a>
                 </div>
                 <div class="header__logo">
                     <img src="img/logo/logo_figma.png" alt="Header logo">
@@ -36,43 +36,43 @@
                 <p class="header__subtitle">Most calendars are designed for teams. State is designed for freelancers.
                 </p>
             </div>
-            <div class="header-button">
+            <div class="header__button">
                 <a class="button" href="#">Try For Free</a>
             </div>
         </div>
-
     </header>
 
-    <main>
-        <div class="container">
+    <main class="main">
+        <div class="main__container container">
             <section class="features">
                 <div class="features__title-header">
                     <h2 class="features__title">Features</h2>
                     <p class="features__subtitle">Most calendars are designed for teams.</p>
                 </div>
                 <img class="feature__video" src="img/photos/video_content.png" alt="Video about Figma">
-                <div class="feature__opportunity">
-                    <div class="feature__opportunity-block">
-                        <img class="feature__opportunity-icon" src="img/items/feature_items/feature_icon1.png"
+                <div class="feature__opportunity opportunity">
+                    <div class="opportunity__block">
+                        <img class="opportunity__icon" src="img/items/feature_items/feature_icon1.png"
                             alt="Strange icon">
-                        <h4 class="feature__block-title">OpenType features <br> Variable fonts</h4>
-                        <p class="feature__block-text">State helps you see how many more days you need to work to reach
+                        <h4 class="opportunity__block-title">OpenType features <br> Variable fonts</h4>
+                        <p class="opportunity__block-text">State helps you see how many more days you need to work to
+                            reach
                             your
                             financial goal.</p>
                     </div>
-                    <div class="feature__opportunity-block">
-                        <img class="feature__opportunity-icon" src="img/items/feature_items/featire_icon2.png"
-                            alt="Pencil">
-                        <h4 class="feature__block-title">Design with real data</h4>
-                        <p class="feature__block-text">State helps you see how many more days you need to work to reach
+                    <div class="opportunity__block">
+                        <img class="opportunity__icon" src="img/items/feature_items/featire_icon2.png" alt="Pencil">
+                        <h4 class="opportunity__block-title">Design with real data</h4>
+                        <p class="opportunity__block-text">State helps you see how many more days you need to work to
+                            reach
                             your
                             financial goal.</p>
                     </div>
-                    <div class="feature__opportunity-block">
-                        <img class="feature__opportunity-icon" src="img/items/feature_items/feature_icon3.png"
-                            alt="Brush">
-                        <h4 class="feature__block-title">Fastest way <br> to take action</h4>
-                        <p class="feature__block-text">State helps you see how many more days you need to work to reach
+                    <div class="opportunity__block">
+                        <img class="opportunity__icon" src="img/items/feature_items/feature_icon3.png" alt="Brush">
+                        <h4 class="opportunity__block-title">Fastest way <br> to take action</h4>
+                        <p class="opportunity__block-text">State helps you see how many more days you need to work to
+                            reach
                             your
                             financial goal.</p>
                     </div>
@@ -81,8 +81,8 @@
 
             <section class="organize-block">
                 <div class="organize-block__header">
-                    <h2 class="organize-block__title title">Fastest way to organize</h2>
-                    <p class="organize-block__subtitle subtitle">Most calendars are designed for teams</p>
+                    <h2 class="organize-block__title">Fastest way to organize</h2>
+                    <p class="organize-block__subtitle">Most calendars are designed for teams</p>
                     <div class="button">
                         <a href="#">Try For Free</a>
                     </div>
@@ -92,26 +92,22 @@
 
             <section class="newsletter">
                 <div class="newsletter__header">
-                    <h2 class="newsletter__content">At your fingertips</h2>
+                    <h2 class="newsletter__introduction">At your fingertips</h2>
                     <h3 class="newsletter__title">Newsletter</h3>
                     <p class="newsletter__subtitle">Most calendars are designed for teams. State is design for
                         freelancers
                     </p>
                 </div>
                 <div class="newsletter__subscribe subscribe">
-                    <h3 class="subscribe-title">Subscribe to our Newsletter</h3>
-                    <p class="subscribe-text">Avaiable exclusivery on Figmaland</p>
+                    <h3 class="subscribe__title">Subscribe to our Newsletter</h3>
+                    <p class="subscribe__text">Avaiable exclusivery on Figmaland</p>
 
                     <form class="newsletter__form form" action="#" method="get">
                         <input class="form__email" type="email" name="your_email" placeholder="Your Email">
-                        <button type="submit" class="blue_btn">Subscribe</button>
+                        <button type="submit" class="blue-btn">Subscribe</button>
                     </form>
                 </div>
                 <img class="newsletter__picture" src="img/photos/undraw_newsletter_vovu.png" alt="Man with letters">
-
-
-
-
             </section>
 
             <section class="partners">
@@ -144,7 +140,7 @@
             </section>
 
             <section class="testimonials">
-                <div class="testimonials-content">
+                <div class="testimonials__header">
                     <h2 class="testimonials__title">Testimonials</h2>
                     <img class="testimonials__logo" src="img/items/ibm.png" alt="IBM">
                     <p class="testimonials__text">Most calendars are designed for teams. State is designed for
@@ -168,9 +164,9 @@
                     <div class="pricing__package">
                         <h3 class="pricing__package-title">FREE</h3>
                         <p class="pricing__package-subtitle">Organize across all apps by hand</p>
-                        <div class="pricing__price">
-                            <p class="price-value">0</p>
-                            <p class="pricing__content"><span class="currency">$</span>Per Month</p>
+                        <div class="pricing__price price">
+                            <p class="price__value">0</p>
+                            <p class="price__content"><span class="currency">$</span>Per Month</p>
                         </div>
                         <ul class="pricing__feature">
                             <li class="pricing__list">Pricing Feature</li>
@@ -185,9 +181,9 @@
                     <div class="pricing__package-standart">
                         <h3 class="pricing__package-title">STANDART</h3>
                         <p class="pricing__package-subtitle">Organize across all apps by hand</p>
-                        <div class="pricing__price">
-                            <p class="price-value">10</p>
-                            <p class="pricing__content"><span class="currency">$</span>Per Month</p>
+                        <div class="pricing__price price">
+                            <p class="price__value">10</p>
+                            <p class="price__content"><span class="currency">$</span>Per Month</p>
                         </div>
                         <ul class="pricing__feature">
                             <li class="pricing__list">Pricing Feature</li>
@@ -202,9 +198,9 @@
                     <div class="pricing__package">
                         <h3 class="pricing__package-title">BUSSINESS</h3>
                         <p class="pricing__package-subtitle">Organize across all apps by hand</p>
-                        <div class="pricing__price">
-                            <p class="price-value">99</p>
-                            <p class="pricing__content"><span class="currency">$</span>Per Month</p>
+                        <div class="pricing__price price">
+                            <p class="price__value">99</p>
+                            <p class="price__content"><span class="currency">$</span>Per Month</p>
                         </div>
                         <ul class="pricing__feature">
                             <li class="pricing__list">Pricing Feature</li>
@@ -261,7 +257,7 @@
                                 <textarea class="user-message" name="user_message"
                                     placeholder="Your Message"></textarea>
                             </div>
-                            <div class="form_btn">
+                            <div class="form-btn">
                                 <button type="submit" class="forms-btn">Send</button>
                             </div>
                         </form>

@@ -15,7 +15,7 @@
     grid-area: header;
 }
 
-.newsletter__content {
+.newsletter__introduction {
     font-size: 20px;
     color: var(--section-title-color);
 }
@@ -29,7 +29,6 @@
 
 .newsletter__subtitle {
     font-size: var(--subtitle-font-size);
-    color: var(--section-text-color);
     letter-spacing: 0.2px;
     line-height: 40px;
 }
@@ -45,15 +44,14 @@
     grid-area: form;
 }
 
-.subscribe-title {
-    font-size: 20px;
+.subscribe__title {
+    font-size: 1.25rem;
     color: var(--section-title-color);
     padding-bottom: 10px;
 }
 
-.subscribe-text {
-    font-size: 18px;
-    color: var(--section-text-color);
+.subscribe__text {
+    font-size: 1.125rem;
     letter-spacing: 0.2px;
 }
 
@@ -80,7 +78,7 @@
     .form__email {
         min-width: 353px;
     }
-} 
+}
 
 @media (min-width: 900px) {
     .newsletter {
@@ -113,9 +111,8 @@
         display: flex;
     }
 
-    .newsletter__form .blue_btn {
+    .newsletter__form .blue-btn {
         padding: 16px 38px;
-
     }
 
     .form__email {

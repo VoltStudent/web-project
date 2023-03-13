@@ -15,7 +15,6 @@
 
 .contact-us__subtitle {
     font-size: var(--subtitle-font-size);
-    color: var(--section-text-color);
     letter-spacing: 0.2px;
     line-height: 40px;
 }

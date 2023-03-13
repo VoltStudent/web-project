@@ -13,12 +13,12 @@ footer {
 
 .name-list__title {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
     padding: 83px 0 17px;
 }
 
 .name__list-names, .footer__nav-list {
-    font-size: 15px;
+    font-size: 0.937rem;
     padding: 8px 0;
     line-height: 28px;
 }
@@ -36,7 +36,6 @@ footer {
     align-items: center;
     margin: 0 0 30px;
 }
-
 
 .adress {
     padding-left: 16px;
