@@ -28,6 +28,7 @@
     font-family: "Graphik";
     text-align: center;
     color: var(--section-text-color);
+    min-width: 320px;
 }
 
 .container {
